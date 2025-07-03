@@ -1,4 +1,7 @@
 sorting algorithm 
+- two types  a. stable sort 
+             b. inplau sort
+  
 ====Basic algorithm===
 1. selection sort 
 2. bubble sort 
@@ -13,3 +16,69 @@ sorting algorithm
 ===Linear sort===
 1.count sort 
 2. redix sort
+
+
+-------------------------------
+1. Stable Sort
+   - Maintains the relative order of equal elements.
+   - Examples: Insertion Sort, Merge Sort, Bubble Sort.
+
+2. In-place Sort
+   - Uses minimal extra memory (O(1) space).
+   - Examples: Selection Sort, Quick Sort, Heap Sort.
+
+ BASIC SORTING ALGORITHMS
+-------------------------------
+1. Selection Sort
+   - Time: O(n²)
+   - Space: O(1)
+   - Not stable, In-place
+   - Repeatedly selects the minimum element and places it at the beginning.
+
+2. Bubble Sort
+   - Time: O(n²), Best: O(n)
+   - Space: O(1)
+   - Stable, In-place
+   - Swaps adjacent elements if they are in the wrong order.
+
+3. Insertion Sort
+   - Time: O(n²), Best: O(n)
+   - Space: O(1)
+   - Stable, In-place
+   - Builds the sorted array one element at a time.
+
+ OPTIMIZED SORTING ALGORITHMS
+-------------------------------
+1. Merge Sort
+   - Time: O(n log n)
+   - Space: O(n)
+   - Stable, Not in-place
+   - Divide-and-conquer algorithm, merges sorted halves.
+
+2. Quick Sort
+   - Time: O(n log n) average, Worst: O(n²)
+   - Space: O(log n) due to recursion
+   - Not stable, In-place
+   - Uses partitioning to sort.
+
+3. Heap Sort
+   - Time: O(n log n)
+   - Space: O(1)
+   - Not stable, In-place
+   - Builds a heap and repeatedly extracts the max/min.
+
+ LINEAR TIME (NON-COMPARISON) SORTS
+-------------------------------------
+1. Counting Sort
+   - Time: O(n + k), where k is the range of input
+   - Space: O(k)
+   - Stable (if implemented properly), Not in-place
+   - Works for integers in a limited range.
+
+2. Radix Sort
+   - Time: O(n * d), where d is the number of digits
+   - Space: O(n + k)
+   - Stable, Not in-place
+   - Applies Counting Sort on digit positions.
+"""
+
