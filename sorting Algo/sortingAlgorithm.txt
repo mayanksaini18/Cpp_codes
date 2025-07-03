@@ -1,0 +1,15 @@
+sorting algorithm 
+====Basic algorithm===
+1. selection sort 
+2. bubble sort 
+3. Insertion sort
+
+
+=====Optimized Algo===
+1. Merge sort 
+2.Quick sort 
+3.Heap sort
+
+===Linear sort===
+1.count sort 
+2. redix sort
