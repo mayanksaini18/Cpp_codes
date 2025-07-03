@@ -1,3 +1,5 @@
+// idea : iterate arrays and find the minimum element in the unsorted  array, then swap it with the first element.
+
 #include <iostream>
 using namespace std;
 // Function to swap two elements
